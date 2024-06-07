@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="havelock_blue">#7495E2</color>
+    <color name="curious_blue">#277CDE</color>
+    <color name="governor_bay">#2E38CB</color>
+    <color name="regent_blue">#A3CFE3</color>
+    <color name="snuff">#DAD2EC</color>
+    <color name="on_error">#FF3333</color>
+</resources>

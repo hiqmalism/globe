@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="register">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="message_welcome_page">Ayo berbagi cerita menakjubkan bersama orang-orang di seluruh dunia!</string>
+    <string name="title_welcome_page">SELAMAT DATANG DI GLOBE!</string>
+    <string name="title_register_page">Hai!</string>
+    <string name="message_register_page">Sepertinya ada wajah baru di sini.</string>
+    <string name="message_login_page">Kami tidak sabar mendengar cerita-cerita kamu lagi!</string>
+    <string name="title_login_page">Selamat Datang Kembali!</string>
+    <string name="enter_your_name">Masukkan nama kamu</string>
+    <string name="enter_your_email">Masukkan email kamu</string>
+    <string name="enter_your_password">Masukkan kata sandi kamu</string>
+    <string name="invalid_email">Email tidak valid</string>
+    <string name="password_must_be_at_least_8_character">Kata sandi minimal berisi 8 karakter</string>
+    <string name="created_at">Dibuat pada: %1$s</string>
+    <string name="add_story">Tambahkan Cerita</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="upload">Unggah Cerita</string>
+    <string name="empty_image_warning">Silakan masukkan gambar terlebih dahulu</string>
+    <string name="share_story">Bagikan ceritamu!</string>
+</resources>

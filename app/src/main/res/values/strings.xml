@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Globe</string>
+    <string name="register">Register</string>
+    <string name="login">Log in</string>
+    <string name="message_welcome_page">Let\'s share amazing stories together with people around the world!</string>
+    <string name="title_welcome_page">WELCOME TO GLOBE!</string>
+    <string name="title_register_page">Hi!</string>
+    <string name="message_register_page">It looks like there\'s a new face here.</string>
+    <string name="message_login_page">We can\'t wait to hear your stories again!</string>
+    <string name="title_login_page">Welcome Back!</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="password_must_be_at_least_8_character">Password must be at least 8 character</string>
+    <string name="created_at">Created at: %1$s</string>
+    <string name="add_story">Add Story</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="upload">Upload Story</string>
+    <string name="empty_image_warning">Please insert the image file first</string>
+    <string name="share_story">Share with us your story!</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="stories_from_nearby">Stories from nearby</string>
+    <string name="retry">Try again</string>
+</resources>
