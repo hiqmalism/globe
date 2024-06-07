@@ -5,9 +5,8 @@
 </p>
 <h3 align="center">Story App | Globe</h3>
 
-Welcome to **Globe** – the ultimate platform for sharing your story with the world. Dive into an ocean of amazing tales from people across the globe. 
-
-Curious about what's happening nearby? Explore local stories and connect with your community. Discover, share, and be inspired – Explore the World with Globe!
+Welcome to **Globe** – the ultimate platform for sharing your story with the world. Dive into an ocean of amazing tales from people across the globe. Curious about what's happening nearby? Explore local stories and connect with your community.  
+Discover, share, and be inspired. – **Explore the World with Globe**!
 
 ## :gear: Features
 - 📖: Read other's story!
