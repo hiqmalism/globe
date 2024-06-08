@@ -20,4 +20,6 @@
     <string name="upload">Unggah Cerita</string>
     <string name="empty_image_warning">Silakan masukkan gambar terlebih dahulu</string>
     <string name="share_story">Bagikan ceritamu!</string>
+    <string name="stories_from_nearby">Cerita di sekitarmu</string>
+    <string name="retry">Coba lagi</string>
 </resources>

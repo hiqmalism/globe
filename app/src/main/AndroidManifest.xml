@@ -26,8 +26,7 @@
 
         <activity
             android:name=".view.maps.MapsActivity"
-            android:exported="false"
-            android:label="@string/title_activity_maps" />
+            android:exported="false"/>
         <activity
             android:name=".view.upload.StoryUploadActivity"
             android:exported="false" />

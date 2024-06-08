@@ -1,5 +1,6 @@
 package com.hiqmalism.mystorysubmission.view.upload
 
+import android.content.Intent
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
@@ -17,6 +18,7 @@ import com.hiqmalism.mystorysubmission.R
 import com.hiqmalism.mystorysubmission.data.resource.ResultState
 import com.hiqmalism.mystorysubmission.databinding.ActivityStoryUploadBinding
 import com.hiqmalism.mystorysubmission.view.ViewModelFactory
+import com.hiqmalism.mystorysubmission.view.main.MainActivity
 import com.hiqmalism.mystorysubmission.view.utils.getImageUri
 import com.hiqmalism.mystorysubmission.view.utils.reduceFileImage
 import com.hiqmalism.mystorysubmission.view.utils.uriToFile
@@ -82,7 +84,9 @@ class StoryUploadActivity : AppCompatActivity() {
                         is ResultState.Success -> {
                             response.data.message?.let { showToast(it) }
                             showLoading(false)
-                            finish()
+                            val intent = Intent(this, MainActivity::class.java)
+                            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
+                            startActivity(intent)
                         }
 
                         is ResultState.Error -> {

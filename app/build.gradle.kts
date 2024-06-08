@@ -38,6 +38,10 @@ android {
         viewBinding = true
         buildConfig = true
     }
+
+    testOptions {
+        unitTests.isReturnDefaultValues = true
+    }
 }
 
 dependencies {
@@ -48,7 +52,6 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.play.services.maps)
     testImplementation(libs.junit)
-    testImplementation("junit:junit:4.12")
     androidTestImplementation(libs.junit.ext)
     androidTestImplementation(libs.espresso.core)
 

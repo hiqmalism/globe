@@ -23,15 +23,12 @@ class MainViewModel(private val repository: UserRepository) : ViewModel() {
     private val _successMessage = MutableLiveData<String?>()
     val successMessage: LiveData<String?> get() = _errorMessage
 
-    init {
-        getStories()
-    }
-
-    private fun getStories() {
+    internal fun getStories() {
         _isLoading.value = true
         viewModelScope.launch {
             try {
                 _isLoading.value = false
+                listStory
             } catch (e: HttpException) {
                 val jsonInString = e.response()?.errorBody()?.string()
                 val errorBody = Gson().fromJson(jsonInString, ErrorResponse::class.java)

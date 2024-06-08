@@ -36,6 +36,8 @@ class MainActivity : AppCompatActivity() {
             if (!user.isLogin) {
                 startActivity(Intent(this, WelcomeActivity::class.java))
                 finish()
+            } else {
+                mainViewModel.getStories()
             }
         }
 
@@ -105,6 +107,12 @@ class MainActivity : AppCompatActivity() {
         mainViewModel.listStory.observe(this) {
             adapter.submitData(lifecycle, it)
         }
+    }
+
+    override fun onResume() {
+        val adapter = StoryAdapter()
+        adapter.refresh()
+        super.onResume()
     }
 
     override fun onBackPressed() {
