@@ -8,7 +8,7 @@ junit = "4.13.2"
 junitExt = "1.1.5"
 espressoCore = "3.5.1"
 datastorePreferences = "1.1.1"
-lifecycle = "2.8.1"
+lifecycle = "2.8.2"
 activityKtx = "1.9.0"
 pagingRuntimeKtx = "3.3.0"
 retrofit = "2.11.0"
@@ -19,6 +19,7 @@ coreTesting = "2.2.0"
 kotlinxCoroutinesTest = "1.7.3"
 mockitoCore = "4.4.0"
 mockitoInline = "4.4.0"
+ucropVersion = "2.2.8"
 
 [libraries]
 core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
@@ -47,3 +48,4 @@ androidx-core-testing = { module = "androidx.arch.core:core-testing", version.re
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinxCoroutinesTest" }
 mockito-inline = { module = "org.mockito:mockito-inline", version.ref = "mockitoInline" }
 mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockitoCore" }
+yalantis-ucrop = { module = "com.github.yalantis:ucrop", version.ref = "ucropVersion" }

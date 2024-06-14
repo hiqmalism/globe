@@ -67,6 +67,7 @@ dependencies {
     implementation(libs.logging.interceptor)
 
     implementation(libs.glide)
+    implementation(libs.yalantis.ucrop)
 
     androidTestImplementation(libs.androidx.core.testing) //InstantTaskExecutorRule
     androidTestImplementation(libs.kotlinx.coroutines.test) //TestDispatcher

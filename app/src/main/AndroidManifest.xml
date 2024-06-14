@@ -25,6 +25,10 @@
             android:value="${MAPS_API_KEY}" />
 
         <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
             android:name=".view.maps.MapsActivity"
             android:exported="false"/>
         <activity

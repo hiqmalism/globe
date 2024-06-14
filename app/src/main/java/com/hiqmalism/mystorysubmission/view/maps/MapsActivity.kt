@@ -49,10 +49,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.uiSettings.isIndoorLevelPickerEnabled = true
         mMap.uiSettings.isCompassEnabled = true
         mMap.uiSettings.isMapToolbarEnabled = true
-        // Add a marker in Sydney and move the camera
-        val sydney = LatLng(-34.0, 151.0)
-        mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
 
         getMyLocation()
         addManyMarker()
@@ -97,7 +93,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                     bounds,
                     resources.displayMetrics.widthPixels,
                     resources.displayMetrics.heightPixels,
-                    300
+                    0
                 )
             )
         }
