@@ -67,7 +67,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupView() {
-        supportActionBar?.setBackgroundDrawable(ColorDrawable(ContextCompat.getColor(this, R.color.governor_bay)))
+        supportActionBar?.setBackgroundDrawable(
+            ColorDrawable(ContextCompat.getColor(this, R.color.governor_bay)
+            )
+        )
     }
 
     private fun setupAction() {
@@ -100,7 +103,7 @@ class MainActivity : AppCompatActivity() {
     private fun getData() {
         val adapter = StoryAdapter()
         binding.rvStory.adapter = adapter.withLoadStateFooter(
-            footer = LoadingStateAdapter {
+            LoadingStateAdapter {
                 adapter.retry()
             }
         )
